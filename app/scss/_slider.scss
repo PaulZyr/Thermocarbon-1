@@ -1,0 +1,100 @@
+.swiper{
+  &.feedbackSwiper{
+    padding-top: 8rem;
+    .swiper-slide{
+      .comment{
+        border:1px solid $color7;
+        border-radius:0.8rem;
+        padding: 2.4rem;
+        p{
+          font-size: 2.2rem;
+          line-height: 1.6;
+        }
+        .user{
+          display: flex;
+          align-items: center;
+          margin-top: 2.4rem;
+          .icon{
+            width: 5.6rem;
+            height: 5.6rem;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 1.6rem;
+            img{
+              object-fit: cover;
+            }
+          }
+          span{
+            display: inline-block;
+            font-size: 1.8rem;
+            font-weight: 600;
+            color:$color8;
+          }
+          p{
+            font-size: 1.4rem;
+            line-height: 1.6;
+            font-weight: 400;
+            color:rgba($gray700,0.6);
+            margin: 0;
+          }
+        }
+      }
+    }
+    .button-next,.button-prev{
+      display: inline-flex;
+      cursor: pointer;
+      svg{
+        use{
+          fill:$gray800;
+          transition: 0.3s;
+        }
+      }
+      &:hover{
+        svg{
+          use{
+            fill:$white;
+          }
+        }
+      }
+    }
+    .button-next{
+      position: absolute;
+      top:0;
+      right:0;
+    }
+    .button-prev{
+      position: absolute;
+      top:0;
+      right:8rem;
+    }     
+  }
+  &.mainSwiper{
+    height: 70rem;
+    .swiper-pagination{
+      .swiper-pagination-bullet{
+        display: flex;
+        width: auto;
+        height: auto;
+        writing-mode: vertical-lr;
+        background: none;
+        .title{
+          position: relative;
+          display: none;
+          padding: 1rem 0 5rem;
+          &:after{
+            width: 1rem;
+            height: 1px;
+            background: red;
+            content:'';
+          }
+        }
+        &.swiper-pagination-bullet-active{
+          .title{
+            display: block;
+          }
+        }
+      }
+    }
+  }  
+}
+

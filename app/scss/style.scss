@@ -1,0 +1,33 @@
+@import './libs';
+@import './fonts';
+@import './mixins';
+@import './vars';
+@import './typography';
+@import './buttons';
+@import './forms';
+@import './header';
+@import './footer';
+@import './slider';
+@import './common';
+
+
+html {
+	// This defines what 1rem is
+	font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-weight: 400;
+    box-sizing: border-box;
+    background: $black;    
+    color:$white;
+}
+
+// .container{
+//     max-width: 167rem;
+//     margin: 0 auto;
+//     width: 100%;
+// }
