@@ -16,8 +16,12 @@ header{
         font-size: 2.2rem;
         font-weight: 600;
         color:$white;
-        text-decoration: none;        
+        text-decoration: none;
+       
       }
+        ul{
+          display: none;
+        }       
     }
   }
 }

@@ -29,8 +29,24 @@
                     </a>
                     <ul class="menu">
                         <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Services</a></li>
+                        <li>
+                            <a href="">Products
+                                <ul>
+                                    <li><a href="#">Blades</a></li>
+                                    <li><a href="#">Flanges</a></li>
+                                    <li><a href="#">Selector</a></li>
+                                </ul>                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">Services
+                                <ul>
+                                    <li><a href="#">Service 1</a></li>
+                                    <li><a href="#">Service 2</a></li>
+                                    <li><a href="#">Service 3</a></li>
+                                </ul>                                
+                            </a>
+                        </li>
                         <li><a href="">About</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="">Contacts</a></li>
@@ -249,6 +265,60 @@
       <section class="video-about-products">
           <div class="container">
               <h2>Video about products</h2>
+              <div class="swiper videoSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="video-slide">
+                            <img src="img/video.png" alt="">
+                            <div class="video-text">
+                                <img src="img/video.png" alt="">
+                                <p>Dicing blades for discrete wafer dicing</p>
+                                <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="video-slide">
+                            <img src="img/video.png" alt="">
+                            <div class="video-text">
+                                <img src="img/video.png" alt="">
+                                <p>Dicing blades for discrete wafer dicing</p>
+                                <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
+                            </div>
+                        </div>                          
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="video-slide">
+                            <img src="img/video.png" alt="">
+                            <div class="video-text">
+                                <img src="img/video.png" alt="">
+                                <p>Dicing blades for discrete wafer dicing</p>
+                                <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
+                            </div>
+                        </div>                          
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="video-slide">
+                            <img src="img/video.png" alt="">
+                            <div class="video-text">
+                                <img src="img/video.png" alt="">
+                                <p>Dicing blades for discrete wafer dicing</p>
+                                <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
+                            </div>
+                        </div>                          
+                    </div>
+                </div>
+                <div class="button-next">
+                    <svg width="62" height="21" fill="none">
+                        <use xlink:href="./img/icons.svg#arrow-next"></use>
+                    </svg>
+                </div>
+                <div class="button-prev">
+                    <svg width="62" height="21" fill="none">
+                        <use xlink:href="./img/icons.svg#arrow-prev"></use>
+                    </svg>                        
+                </div>
+            </div>              
           </div>
       </section>
       <!-- Part Number selector  -->
@@ -488,6 +558,15 @@
           prevEl: ".button-prev",
         },
       });
+      var swiper = new Swiper(".videoSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+      });      
       var swiper = new Swiper(".mainSwiper", {
           direction: "vertical",
           mousewheel: true,

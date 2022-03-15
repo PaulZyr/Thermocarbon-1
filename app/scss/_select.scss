@@ -1,9 +1,11 @@
 .lang{
   select{
-    option{
-      &[value="eng"]{
-        
-      }
+    .form-select{
+      option{
+        &[value="eng"]{
+          
+        }
+      }      
     }
   }
 }
