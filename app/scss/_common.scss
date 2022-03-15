@@ -37,6 +37,10 @@ ul{
 
 .manufacturers{
   padding: 19rem 0;
+  img{
+    margin-left: -42%;
+    margin-top: -45%;
+  }
   span{
     display: inline-block;
     color:$color7;
@@ -155,8 +159,23 @@ ul{
         width: 1.2rem;
         height: 1.2rem;
         margin-left: 2rem;
+        transition: 0.1s;
         use{
           stroke:$white;
+        }
+      }
+      &:hover{
+        text-decoration: underline;
+        svg{
+          transform: rotate(45deg);
+        }
+      }
+      &[disable]{
+        color:$color13;
+        svg{
+          use{
+            stroke:$color13;
+          }
         }
       }
     }

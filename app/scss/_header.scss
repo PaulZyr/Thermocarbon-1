@@ -9,19 +9,92 @@ header{
   .menu{
     display: flex;
     align-items: center;
+    padding: 0;
+    margin: 0;
     li{
+      position: relative;
       list-style: none;
       margin:0 2rem;
       a{
+        font-family: 'Lato';
         font-size: 2.2rem;
         font-weight: 600;
         color:$white;
         text-decoration: none;
-       
       }
+      svg{
+        use{
+          fill:$white;
+        }
+      }
+      ul{
+        position: absolute;
+        display: none;
+        padding: 1.6rem;
+        border-radius: 1rem;
+        background: $bg;
+        z-index: 2;
+        margin: 0;
+        li{
+          margin: 0;
+        }
+      }
+      &:hover{
         ul{
-          display: none;
-        }       
+          display: block;
+        }
+      }
+    }
+  }
+  .lang{
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+    .current-lang{
+      padding: 0.5rem 0.2rem;
+      svg{
+        use{
+          fill:$white;
+        }
+      }
+      span{
+        display: inline-block;
+        margin:0 0.5rem 0 0.8rem;
+      }
+    }
+    .lang-list{
+      display: none;
+      position: absolute;
+      top:100%;
+      left:50%;
+      transform: translateX(-50%);
+      padding: 1.9rem 1.8rem;
+      border-radius: 1rem;
+      background: $bg;
+      list-style: none;
+      li{
+        display: flex;
+        align-items: center;
+        &:not(:last-child){
+          margin-bottom: 1.8rem;
+        }
+        a{
+          display: inline-flex;
+          align-items: center;
+          img{
+            margin-right: 0.8rem;
+          }
+          font-size: 1.8rem;
+          line-height: 1;
+          color:$white;
+          text-decoration: none;          
+        }
+      }
+    }
+    &:hover{
+      .lang-list{
+        display: block;
+      }
     }
   }
 }

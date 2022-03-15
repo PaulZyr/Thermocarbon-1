@@ -17,8 +17,17 @@
     &:hover{
       background: $color9;
     }
+    &[disable]{
+      background: $color13;
+      color:$color15;
+      svg{
+        use{
+          
+        }
+      }
+    }
   }
-  img{
+  img,svg{
     margin-left: 2rem;
   }
 }

@@ -8,5 +8,8 @@
     <symbol id="arrow" viewBox="0 0 14 14">
         <path d="M13 1L1 13" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         <path d="M3 1H13V11" stroke="inherit" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>        
-    </symbol>                        
+    </symbol>
+    <symbol id="arrow-down">
+        <path d="M5.875 5.43333L5.52383 5.78925L5.875 6.13574L6.22617 5.78925L5.875 5.43333ZM0.523828 0.855918L5.52383 5.78925L6.22617 5.07742L1.22617 0.144082L0.523828 0.855918ZM6.22617 5.78925L11.2262 0.855919L10.5238 0.144082L5.52383 5.07742L6.22617 5.78925Z" fill="inherit"/>
+    </symbol>                            
 </svg>

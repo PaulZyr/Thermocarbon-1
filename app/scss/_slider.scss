@@ -1,5 +1,5 @@
 .swiper{
-  &.feedbackSwiper,&.videoSwiper{
+  &.feedbackSwiper{
     padding-top: 8rem;
     .swiper-slide{
       .comment{
@@ -68,6 +68,64 @@
       right:8rem;
     }     
   }
+  &.videoSwiper{
+    .swiper-wrapper{
+      padding-top: 8rem;      
+    }
+
+    .swiper-slide{
+      &.video-slide{
+        position: relative;
+        img{
+          width: 100%;
+        }
+        .video-text{
+          position: absolute;
+          bottom:0;
+          left:0;
+          padding:2.2rem 2.4rem;
+          p{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color:$white;
+            margin-bottom: 0.4rem;
+          }
+          span{
+            font-size: 1.4rem;
+            font-weight: 400;
+            color:$gray700;
+          }
+        }        
+      }
+    }
+    .button-next,.button-prev{
+      display: inline-flex;
+      cursor: pointer;
+      svg{
+        use{
+          fill:$gray800;
+          transition: 0.3s;
+        }
+      }
+      &:hover{
+        svg{
+          use{
+            fill:$white;
+          }
+        }
+      }
+    }
+    .button-next{
+      position: absolute;
+      top:0;
+      right:0;
+    }
+    .button-prev{
+      position: absolute;
+      top:0;
+      right:8rem;
+    }      
+  }
   &.mainSwiper{
     height: 70rem;
     .swiper-pagination{
@@ -81,10 +139,22 @@
           position: relative;
           display: none;
           padding: 1rem 0 5rem;
+          &:before{
+            position: absolute;
+            top:1px;
+            left:50%;
+            width: 1px;
+            height: 0.8rem;
+            background: $white;
+            content:'';            
+          }
           &:after{
-            width: 1rem;
-            height: 1px;
-            background: red;
+            position: absolute;
+            width: 1px;
+            height: 4.8rem;
+            bottom:1px;
+            left:50%;
+            background: $white;
             content:'';
           }
         }
