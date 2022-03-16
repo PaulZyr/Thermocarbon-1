@@ -15,12 +15,35 @@ header{
       position: relative;
       list-style: none;
       margin:0 2rem;
+      div{
+        span{
+          font-family: 'Lato';
+          font-size: 2.2rem;
+          font-weight: 600;
+          color:$white;          
+          cursor: pointer;
+        }
+        &:hover{
+          span{
+            color:$color9;
+          }
+          svg{
+            transform: rotate(180deg);
+            use{
+              fill:$color9;
+            }
+          }
+        }
+      }      
       a{
         font-family: 'Lato';
         font-size: 2.2rem;
         font-weight: 600;
         color:$white;
         text-decoration: none;
+        &:hover{
+          color:$color9;
+        }
       }
       svg{
         use{
@@ -35,7 +58,9 @@ header{
         background: $bg;
         z-index: 2;
         margin: 0;
+        max-width: 15rem;
         li{
+          display: flex;
           margin: 0;
         }
       }

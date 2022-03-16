@@ -36,10 +36,10 @@ ul{
 }
 
 .manufacturers{
-  padding: 19rem 0;
+  padding: 11rem 0;
   img{
-    margin-left: -42%;
-    margin-top: -45%;
+margin-left: -22%;
+    margin-top: -35%;
   }
   span{
     display: inline-block;
@@ -87,10 +87,19 @@ ul{
   a{
     margin-top: 4.8rem;
   }
+
 }
 
 .customer-service{
   padding: 19.5rem 0;
+  .container{
+    position: relative;
+    .blades{
+      position: absolute;
+      bottom:-50rem;
+      right:-13rem;
+    }
+  }
   h2{
     margin-bottom: 8rem;
   }
@@ -111,11 +120,14 @@ ul{
     }
     &:hover{
       background: $color7;
+      border-color:$white;
+      cursor: pointer;
     }
   }
 }
 
 .knowledge-center{
+  padding-bottom: 20rem;
   h2{
     margin-bottom: 3.2rem;
   }
@@ -155,6 +167,7 @@ ul{
       text-transform: uppercase;
       color:$white;
       text-decoration: none;
+      margin-top: 1.8rem;
       svg{
         width: 1.2rem;
         height: 1.2rem;
@@ -180,10 +193,30 @@ ul{
       }
     }
     &.main{
+      .acrticle-content{
+        margin-top: 2.4rem;
+      }
       p{
         color:$white;
       }
+      .read-more{
+        margin-top: 2.6rem;
+      }
     }
+  }
+}
+
+.video-about-products{
+  padding-bottom: 20rem;
+}
+
+.part-number-selector{
+  h2{
+    margin-bottom: 8rem;
+  }
+  .blades{
+    margin-top: -8rem;
+    margin-left: -11rem;
   }
 }
 

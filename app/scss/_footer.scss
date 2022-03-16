@@ -1,7 +1,7 @@
 footer{
-  padding-top: 4rem;
   background: $bg;
   .footer-top{
+    padding: 4rem 0;
     h5{
       margin-bottom: 2.4rem;
     }
@@ -23,7 +23,12 @@ footer{
     }
   }
   .footer-middle{
-    margin:4rem 0;
+    .container{
+      padding-top: 4rem;
+      padding-bottom: 4rem;    
+      border-top:1px solid $white;
+      border-bottom:1px solid $white;              
+    }
   }
   .footer-bottom{
     .col-12{
@@ -31,7 +36,6 @@ footer{
       align-items: center;
       justify-content: space-between;
       padding: 3.2rem 0;
-      border-top:1px solid $white;      
     }
   }
 }

@@ -23,26 +23,34 @@
                     <ul class="menu">
                         <li><a href="">Home</a></li>
                         <li>
-                            <div>
-                                <span>Products</span>
-                                <svg width="12" height="7" fill="none">
-                                    <use xlink:href="./img/icons.svg#arrow-down"></use>
-                                </svg>
-                            </div>                                                                   
-                            <ul>
-                                <li><a href="#">Blades</a></li>
-                                <li><a href="#">Flanges</a></li>
-                                <li><a href="#">Selector</a></li>
-                            </ul>   
+                            <div class="dropdown">
+                                <div>
+                                    <span>Products</span>
+                                    <svg width="12" height="7" fill="none">
+                                        <use xlink:href="./img/icons.svg#arrow-down"></use>
+                                    </svg>
+                                </div>                                                                   
+                                <ul>
+                                    <li><a href="#">Blades</a></li>
+                                    <li><a href="#">Flanges</a></li>
+                                    <li><a href="#">Selector</a></li>
+                                </ul>                                 
+                            </div>
                         </li>
                         <li>
-                            <a href="">Services
+                            <div class="dropdown">
+                                <div>
+                                    <span>Services</span>
+                                    <svg width="12" height="7" fill="none">
+                                        <use xlink:href="./img/icons.svg#arrow-down"></use>
+                                    </svg>                                
+                                </div>
                                 <ul>
-                                    <li><a href="#">Service 1</a></li>
-                                    <li><a href="#">Service 2</a></li>
-                                    <li><a href="#">Service 3</a></li>
-                                </ul>                                
-                            </a>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Service</a></li>
+                                    <li><a href="#">Service</a></li>
+                                </ul>                                 
+                            </div>
                         </li>
                         <li><a href="">About</a></li>
                         <li><a href="">Blog</a></li>
@@ -100,7 +108,7 @@
           <div class="container">
               <div class="row">
                 <div class="col-6">
-                    <img src="img/Group 8715.png" alt="">
+                    <img src="img/blades-img1.png" alt="">
                 </div>
                 <div class="col-6">
                     <span>DICEMASTER®</span>
@@ -148,7 +156,7 @@
                       <p>We continously develop new blades in order to help our customers, reducing costs and improving quality, free of charge</p>
                       <a href="" class="btn primary-btn">Read more <img src="img/arrow.svg" alt=""></a>
                   </div>
-                  <div class="col-6">
+                  <div class="col-6 services-img">
                       <img src="img/img.jpg" alt="">
                   </div>
               </div>
@@ -205,6 +213,7 @@
                       </div>
                   </div>
               </div>
+              <img src="img/blades-img2.png" alt="blades" class="blades">
           </div>
       </section>
       <!-- Knowledge center  -->
@@ -320,13 +329,13 @@
               <h2>Part Number Selector</h2>
               <div class="row">
                   <div class="col-6">
-
+                    <img src="img/blades-img3.png" alt="blades" class="blades">
                   </div>
                   <div class="col-6">
-                      <p>Dicemaster and Blademaster high-quality diamond blades are avalible in a complete range of 
+                        <p>Dicemaster and Blademaster high-quality diamond blades are avalible in a complete range of 
                         diameters from 2” to 5” to fit all dicing saws and conventional grinders. 
                         Thicknesses are avalible from .0015” through .500” with various tolerance levels starting.</p>
-                        <img src="" alt="">
+                        <img src="img/img3.png" alt="img">
                         <p>Select the part number for dicing blades based on the main criteria</p>
                         <a href="" class="btn primary-btn">Go to selector <img src="img/arrow.svg" alt=""></a>
                   </div>
@@ -568,7 +577,7 @@
           renderBullet: function (index, className) {
             // return '<span class="' + className + '">' + '0'+ (index + 1) + "</span>";
             let currentIndex = index + 1 > 9 ? `${index + 1}` : `0${index+1}`;
-            return `<div class="${className}">${currentIndex}<div class="title">Blade ${index+1}</div></div>`;
+            return `<div class="${className}">${currentIndex}<div class="title">BLADE &nbsp; ${index+1}</div></div>`;
           },
         },
       });    
