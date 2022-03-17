@@ -1,9 +1,32 @@
 footer{
   background: $bg;
+  margin-top: 9.5rem;
   .footer-top{
     padding: 4rem 0;
     h5{
       margin-bottom: 2.4rem;
+    }
+    .content-block{
+      div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.6rem;
+        img{
+          margin-right: 1.9rem;
+        }
+        a{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color:$white;
+          text-decoration: none;
+        }
+      }
+      &.content-headquarters{
+        margin-top: 4rem;
+        div{
+          align-items: flex-start;
+        }
+      }
     }
     ul{
       padding: 0;

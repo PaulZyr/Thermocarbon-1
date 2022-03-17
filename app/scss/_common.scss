@@ -38,8 +38,8 @@ ul{
 .manufacturers{
   padding: 11rem 0;
   img{
-margin-left: -22%;
-    margin-top: -35%;
+    margin-left: -22%;
+    margin-top: -10%;
   }
   span{
     display: inline-block;
@@ -96,7 +96,7 @@ margin-left: -22%;
     position: relative;
     .blades{
       position: absolute;
-      bottom:-50rem;
+      bottom:-42rem;
       right:-13rem;
     }
   }
@@ -211,12 +211,25 @@ margin-left: -22%;
 }
 
 .part-number-selector{
+  padding-bottom: 20rem;
   h2{
     margin-bottom: 8rem;
+  }
+  p{
+    font-size: 2.2rem;
+  }
+  .blades-img{
+    display:flex;
+    border-radius:1rem;
+    max-width: 100%;
+    margin:5.5rem 0 5.5rem auto;
   }
   .blades{
     margin-top: -8rem;
     margin-left: -11rem;
+  }
+  a{
+    margin-top: 4.8rem;
   }
 }
 

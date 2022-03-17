@@ -26,7 +26,6 @@ gulp.task('scss', function () {
 gulp.task('css', function () {
   return gulp.src([
     'node_modules/normalize.css/normalize.css',
-    'node_modules/bootstrap/dist/css/bootstrap.css',
     'node_modules/swiper/swiper-bundle.css'
   ])
     .pipe(concat('_libs.scss'))
