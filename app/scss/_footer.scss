@@ -34,7 +34,7 @@ footer{
       li{
         list-style: none;
         &:not(:last-child){
-          margin-bottom: 1.6rem;
+          margin-bottom: 1.2rem;
         }
         a{
           font-size: 1.8rem;
@@ -43,6 +43,9 @@ footer{
           text-decoration: none;
         }
       }
+    }
+    .map-img{
+      max-width: 100%;
     }
   }
   .footer-middle{
