@@ -82,6 +82,9 @@ header{
     cursor: pointer;
     z-index: 2;
     .current-lang{
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
       padding: 0.5rem 0.2rem;
       svg{
         use{
