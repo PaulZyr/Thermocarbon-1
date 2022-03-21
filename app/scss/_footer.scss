@@ -1,4 +1,5 @@
 footer{
+  overflow: hidden;
   background: $bg;
   margin-top: 9.5rem;
   .footer-top{
@@ -46,6 +47,7 @@ footer{
     }
     .map-img{
       max-width: 100%;
+      height: 100%;
     }
   }
   .footer-middle{
