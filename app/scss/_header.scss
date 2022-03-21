@@ -123,6 +123,11 @@ header{
           color:$white;
           text-decoration: none;          
         }
+        &:hover{
+          a{
+            color:$color9;
+          }
+        }
       }
     }
     &:hover{
