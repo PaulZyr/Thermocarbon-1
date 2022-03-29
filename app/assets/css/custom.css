@@ -1,3 +1,6 @@
+.header .navbar-brand .logo{
+    width: 320px;
+}
 .module-contact{
     margin-left: 0;
 }
@@ -27,6 +30,36 @@ footer .content-block.content-headquarters .footer-widget-content {
     padding-left: 16px;
     padding-top: 20px;
 }
+
+.contact .contact-widget-title h5{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;    
+}
+
+.contact .contact-widget-content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.contact .contact-widget-content img{
+    margin-right: 20px;
+}
+
+.contact .content-headquarters .contact-widget-content{
+    align-items: flex-start;
+}
+
+.contact .contact-widget-content a,.contact .contact-widget-content span{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;    
+}
+
 .projects.projects-grid .carousel .owl-nav{
     top:50%;
     transform: translateY(-50%);
