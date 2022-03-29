@@ -1,596 +1,1006 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.min.css">
-
-    <title>Thermocarbon</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="author" content="Ayman Fikry"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="Multi-purpose energy html5 template"/>
+    <title>Home Main - Energia Responsive Bootstrap 5 energy HTML5 Template</title>
+    <link href="assets/images/favicon/favicon.png" rel="icon"/>
+    <!--  Fonts ==
+    -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet"/>
+    <!--  Stylesheets==
+    -->
+    <link href="assets/css/vendor.min.css" rel="stylesheet"/>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+    <link href="assets/css/custom.css" rel="stylesheet"/>
   </head>
   <body>
-      <!-- Hedaer  -->
-      <header>
-          <div class="container">
-              <div class="row">
-                  <div class="col-12">
-                    <div class="header-wrapper">
-                        <a href="" class="logo">
-                            <img src="img/logo.svg" alt="logo">
-                        </a>
-                        <ul class="menu">
-                            <li><a href="">Home</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <div>
-                                        <span>Products</span>
-                                        <svg width="12" height="7" fill="none">
-                                            <use xlink:href="./img/icons.svg#arrow-down"></use>
-                                        </svg>
-                                    </div>                                                                   
-                                    <ul>
-                                        <li><a href="#">Blades</a></li>
-                                        <li><a href="#">Flanges</a></li>
-                                        <li><a href="#">Selector</a></li>
-                                    </ul>                                 
-                                </div>
-                            </li>
-                            <li>
-                                <div class="dropdown">
-                                    <div>
-                                        <span>Services</span>
-                                        <svg width="12" height="7" fill="none">
-                                            <use xlink:href="./img/icons.svg#arrow-down"></use>
-                                        </svg>                                
-                                    </div>
-                                    <ul>
-                                        <li><a href="#">Service</a></li>
-                                        <li><a href="#">Service</a></li>
-                                        <li><a href="#">Service</a></li>
-                                    </ul>                                 
-                                </div>
-                            </li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contacts</a></li>
-                        </ul>
-                        <div class="lang">
-                            <div class="current-lang">
-                                <img src="img/united-states.svg" alt="" width="22" height="16">
-                                <span>EN</span>
-                                <svg width="12" height="7" fill="none">
-                                    <use xlink:href="./img/icons.svg#arrow-down"></use>
-                                </svg> 
-                            </div>
-                            <ul class="lang-list">
-                                <li><a href="#"><img src="img/flag-de.svg" alt="">DE</a></li>
-                                <li><a href="#"><img src="img/flag-jp.svg" alt="">JP</a></li>
-                                <li><a href="#"><img src="img/flag-cn.svg" alt="">ZH</a></li>
+    <div class="preloader">
+      <div class="dual-ring"></div>
+    </div>
+    <!-- Document Wrapper-->
+    <div class="wrapper clearfix" id="wrapperParallax">
+      <!-- 
+      ============================
+      Header #2
+      ============================
+      -->
+      <header class="header header-light header-topbar header-topbar1 header-shadow" id="navbar-spy">
+        <div class="top-bar">
+          <div class="block-left"> 
+            <div class="top-contact">
+              <div class="contact-infos"><i class="energia-phone-Icon"></i>
+                <div class="contact-body"> 
+                  <p>phone: <a href="tel:1-800-523-1946">1-800-523-1946</a></p>
+                </div>
+              </div>
+              <div class="contact-infos"><i class="energia-clock-Icon"></i>
+                <div class="contact-body"> 
+                  <p>hours: 8:30am-5pm eastern</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-right">
+            <div class="module module-language">
+              <div class="selected"><img src="assets/images/module-language/flag-usa.svg" alt="EN Language"/><span>EN</span><i class="fas fa-chevron-down"></i></div>
+              <div class="lang-list">
+                <ul> 
+                  <li> <img src="assets/images/module-language/flag-cn.svg" alt="CN Language"/><a href="#">CN</a></li>
+                  <li> <img src="assets/images/module-language/flag-de.svg" alt="DN Language"/><a href="#">DE</a></li>
+                  <li> <img src="assets/images/module-language/flag-jp.svg" alt="JP Language"/><a href="#">JPc</a></li>                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-sticky" id="primary-menu"><a class="navbar-brand" href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo.svg" alt="Logo"/></a>
+          <div class="module-holder module-holder-phone">
+            <div class="module module-search">
+              <div class="module-icon module-icon-search"><i class="energia-search-Icon"></i></div>
+            </div>
+            <div class="module module-cart">
+              <div class="module-icon module-icon-cart"><i class="fas fa-shopping-cart"></i><span class="title">shop cart</span>
+                <label class="module-label">2</label>
+              </div>
+              <div class="module-cart-warp">  
+                <ul class="cart-overview">
+                  <li> <img src="assets/images/shop/thumb/1.png" alt="product"/>
+                    <div class="product-meta"> 
+                      <h5>pentair controller</h5>
+                      <p>$ 325.00</p>
+                    </div><a class="cart-cancel" href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                  </li>
+                  <li> <img src="assets/images/shop/thumb/2.png" alt="product"/>
+                    <div class="product-meta"> 
+                      <h5>solar royal</h5>
+                      <p>$ 295.00</p>
+                    </div><a class="cart-cancel" href="javascript:void(0)"><i class="fas fa-times"></i></a>
+                  </li>
+                </ul><span>total: <i class="total-price">$620.00</i></span>
+                <div class="cart--control"> <a class="btn" href="shop-cart.html">view cart</a></div>
+              </div>
+            </div>
+            <div class="module module-language">
+              <div class="selected"><img src="assets/images/module-language/en.png" alt="En Language"/><span>english</span><i class="fas fa-chevron-down"></i></div>
+              <div class="lang-list">
+                <ul> 
+                  <li> <img src="assets/images/module-language/en.png" alt="En Language"/><a href="#">english</a></li>
+                  <li> <img src="assets/images/module-language/ar.png" alt="AR Language"/><a href="#">arabic</a></li>
+                </ul>
+              </div>
+            </div>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav me-auto">
+                          <li class="nav-item active" data-hover="" id="contact">
+                            <a href="#"><span>Home</span></a>
+                          </li>
+                          <li class="nav-item has-dropdown" data-hover="">
+                            <a class="dropdown-toggle" href="#" data-toggle="dropdown"><span>Products</span></a>
+                            <ul class="dropdown-menu">
+                              <li class="nav-item"><a href="page-about.html"><span>Blades</span></a></li>
+                              <li class="nav-item"><a href="page-how-works.html"><span>Flanges</span></a></li>
+                              <li class="nav-item"><a href="page-team.html"><span>Selector</span></a></li>
                             </ul>
-                        </div>                                           
-                    </div>                      
-                  </div>
-
+                          </li>
+                          <li class="nav-item has-dropdown" id="departments" data-hover="">
+                            <a class="dropdown-toggle" href="page-services.html" data-toggle="dropdown"><span>Services</span></a>
+                            <ul class="dropdown-menu">
+                              <li class="nav-item"><a href="services-turbines.html"><span>R&D</span></a></li>
+                              <li class="nav-item"><a href="services-solar.html"><span>Support</span></a></li>
+                              <li class="nav-item"><a href="services-battery.html"><span>Research</span></a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item" id="contact" data-hover="">
+                            <a href="#"><span>About</span></a>
+                          </li>
+                          <li class="nav-item" id="contact" data-hover="">
+                            <a href="#"><span>Blog</span></a>
+                          </li>
+                          <li class="nav-item" id="contact" data-hover="">
+                            <a href="page-contact.html"><span>Contacts</span></a>
+                          </li>
+                        </ul>
+            <div class="module-holder">
+              <div class="module module-search">
+                <div class="module-icon module-icon-search"><i class="energia-search-Icon"></i></div>
               </div>
+              <div class="module-contact"><a class="btn btn--primary " href="request-quote.html">
+                   request a quote<i class="energia-arrow-right"></i></a></div>
+            </div>
+            <!--  End .module-holder-->
           </div>
+          <!--  End .navbar-collapse-->
+        </nav>
+        <!--  End .navbar-->
       </header>
-      <!-- Main screen  -->
-      <section class="main-screen">
+      <!-- End .header-->
+      <!--
+      ============================
+      Module Search
+      ============================
+      -->
+      <div class="module-content module-search-warp">
+        <div class="pos-vertical-center">
           <div class="container">
-              <div class="row">
-                  <div class="col-6">
-                      <h1>The leader in dicing and precision <span>diamond grinding</span> <i>technology</i></h1>
-                      <p>With over 40-year experience of Thermocarbon inc in semiconductor dicing, we share recommendations
-                      to enhance your dicing operations to the maximum efficiency.</p>
-                      <a href="" class="btn primary-btn">products catalog <img src="img/arrow.svg" alt=""> </a>
-                  </div>
-                  <div class="col-6">
-                    <div class="swiper mainSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background:#1E1C25 url('./img/blade.png');">
-                        </div>
-                        <div class="swiper-slide" style="background:#1E1C25 url('./img/blade.png');">
-                        </div>
-                        <div class="swiper-slide" style="background:#1E1C25 url('./img/blade.png');">
-                        </div>                                              
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    </div>
-                  </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                <form class="form-search">
+                  <input class="form-control" type="text" placeholder="type words then enter"/>
+                  <button></button>
+                </form>
+                <!-- End .form-search -->
               </div>
-          </div>
-      </section>
-      <!-- Manufacturers  -->
-      <section class="manufacturers">
-          <div class="container">
-              <div class="row">
-                <div class="col-6">
-                    <div class="animate-block">
-                        <img src="img/blades-img1.png" alt="">                        
-                    </div>
-                </div>
-                <div class="col-6">
-                    <span>DICEMASTER®</span>
-                    <h3>Dicing blades /<br> Diamond wheels</h3>
-                    <ul>
-                        <li>Cut with closer tolerances than any other blade on the market!</li>
-                        <li>Cost-effective alternative for metal blade applications</li>
-                        <li>Consistent Reliability</li>
-                        <li>Self-Sharpening</li>
-                        <li>Run Cooler and Last Longer</li>
-                        <li>Chip less</li>
-                    </ul>
-                    <span>TCAR® FLANGES</span>
-                    <h3>Next Generation</h3>
-                    <ul>
-                        <li>Completly custom non-stock flanges.</li>
-                        <li>Titanium, stainless steel, hard anodize aluminum with assorted colors.</li>
-                        <li>Allow custom O.D. Exposure.</li>
-                        <li>Uncomparible parralelism.</li>
-                    </ul>
-                </div>                  
-              </div>
-          </div>
-      </section>
-      <!-- Our services  -->
-      <section class="our-services">
-          <div class="container">
-              <div class="row align-items-center">
-                  <div class="col-6">
-                      <h2>Our Services</h2>
-                      <ul>
-                          <li>
-                            <img src="img/icon_1.svg" alt="">
-                            <span>R&D services</span>
-                          </li>
-                          <li>
-                            <img src="img/icon_2.svg" alt="">
-                            <span>Free loaner flanges</span>                             
-                          </li>
-                          <li>
-                            <img src="img/icon_3.svg" alt="">
-                            <span>Blade samples</span>                             
-                          </li>
-                      </ul>
-                      <p>We continously develop new blades in order to help our customers, reducing costs and improving quality, free of charge</p>
-                      <a href="" class="btn primary-btn">Read more <img src="img/arrow.svg" alt=""></a>
-                  </div>
-                  <div class="col-6 services-img">
-                      <img src="img/img.jpg" alt="">
-                  </div>
-              </div>
-          </div>
-      </section>
-      <div class="hidden">
-        <!-- Customer service  -->
-        <section class="customer-service">
-            <div class="container">
-                <h2>Customer Service</h2>
-                <div class="row">
-                    <div class="col-4 mb-5">
-                        <div class="cs-item">
-                            <div class="icon">
-                                <img src="img/cs-icon1.svg" alt="icon">
-                            </div>
-                            <h4>Local distributors</h4>
-                            <p>We have excellent local distributors in all continents willing to step in and help</p>
-                        </div>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <div class="cs-item">
-                            <div class="icon">
-                                <img src="img/cs-icon2.svg" alt="icon">
-                            </div>
-                            <h4>Сustomer attitude</h4>
-                            <p>We treat our customers equally, no matter how big or small</p>
-                        </div>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <div class="cs-item">
-                            <div class="icon">
-                                <img src="img/cs-icon3.svg" alt="icon">
-                            </div>
-                            <h4>Travel for our clients</h4>
-                            <p>We will travel all over the globe for our customers an no charge</p>
-                        </div>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <div class="cs-item">
-                            <div class="icon">
-                                <img src="img/cs-icon4.svg" alt="icon">
-                            </div>
-                            <h4>Sales team</h4>
-                            <p>Our sales team in constantly training in all applications and processes to improve customers bottom line</p>
-                        </div>
-                    </div>
-                    <div class="col-4 mb-5">
-                        <div class="cs-item">
-                            <div class="icon">
-                                <img src="img/cs-icon5.svg" alt="icon">
-                            </div>
-                            <h4>Many languages</h4>
-                            <p>Our staff is fluent in Chinese, Japanese, Spanish, Italian, Russian, and English</p>
-                        </div>
-                    </div>
-                </div>
-                <img src="img/blades-img2.png" alt="blades" class="blades">
+              <!-- End .col-lg-8 -->
             </div>
-        </section>
-        <!-- Knowledge center  -->
-        <section class="knowledge-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-7 mb-5">
-                        <h2>Knowledge Center</h2>
-                        <p>With over 40-year experience of Thermocarbon inc in semiconductor dicing,
-                        we share recommendations to enhance your dicing operations to the maximum efficiency.</p>
-                    </div>
-                    <div class="col-7">
-                        <div class="article main">
-                                <img src="img/img2.jpg" alt="">
-                                <div class="acrticle-content">
-                                    <span class="date">20 December 2021</span>
-                                    <h3>Flange care: How to prevent flange damages</h3>
-                                    <p>We treat our customers equally, no matter how big or small.</p>
-                                    <a href="" class="read-more">
-                                        READ MORE
-                                        <svg stroke="none" fill="none">
-                                            <use xlink:href="./img/icons.svg#arrow"></use>
-                                        </svg>  
-                                    </a>                                   
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-5">
-                            <div class="article-list">
-                                <div class="article">
-                                    <div class="acticle-content">
-                                        <span class="date">20 December 2021</span>
-                                        <h4>Flange care: How to prevent flange damages</h4>
-                                        <p>We treat our customers equally, no matter how big or small.</p>
-                                        <a href="" class="read-more">
-                                            READ MORE 
-                                            <svg stroke="none" fill="none">
-                                                <use xlink:href="./img/icons.svg#arrow"></use>
-                                            </svg>
-                                        </a>                                    
-                                    </div>
-                                </div>
-                                <div class="article">
-                                    <div class="article-content">
-                                        <span class="date">20 December 2021</span>
-                                        <h4>Flange care: How to prevent flange damages</h4>
-                                        <p>We treat our customers equally, no matter how big or small.</p>
-                                        <a href="" class="read-more">
-                                            READ MORE 
-                                            <svg stroke="none" fill="none">
-                                                <use xlink:href="img/icons.svg#arrow"></use>
-                                            </svg>
-                                        </a>                                    
-                                    </div>
-                                </div>                            
-                            </div>
-                            <a href="" class="btn primary-btn">All news <img src="img/arrow.svg" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </section>          
+            <!--  End .row-->
+          </div>
+          <!--  End .container-->
+        </div><a class="module-cancel" href="#"><i class="fas fa-times"></i></a>
+        <!-- End .module-cancel-->
       </div>
-      <!-- Video about products  -->
-      <section class="video-about-products">
-          <div class="container">
-              <h2>Video about products</h2>
-              <div class="swiper videoSwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide video-slide">
-                        <img src="img/video.png" alt="">
-                        <div class="video-text">
-                            <p>Dicing blades for discrete wafer dicing</p>
-                            <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
-                        </div>
-                    </div>
-                    <div class="swiper-slide video-slide">
-                        <img src="img/video.png" alt="">
-                        <div class="video-text">
-                            <p>Dicing blades for discrete wafer dicing</p>
-                            <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
-                        </div>
-                    </div>
-                    <div class="swiper-slide video-slide">
-                        <img src="img/video.png" alt="">
-                        <div class="video-text">
-                            <p>Dicing blades for discrete wafer dicing</p>
-                            <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
-                        </div>
-                    </div>
-                    <div class="swiper-slide video-slide">
-                        <img src="img/video.png" alt="">
-                        <div class="video-text">
-                            <p>Dicing blades for discrete wafer dicing</p>
-                            <span>Simac Masic is distributor for the K&S brand dicing blades.</span>   
-                        </div>
-                    </div>
-                </div>
-                <div class="button-next">
-                    <svg width="62" height="21" fill="none">
-                        <use xlink:href="./img/icons.svg#arrow-next"></use>
-                    </svg>
-                </div>
-                <div class="button-prev">
-                    <svg width="62" height="21" fill="none">
-                        <use xlink:href="./img/icons.svg#arrow-prev"></use>
-                    </svg>                        
-                </div>
-            </div>              
-          </div>
-      </section>
-      <!-- Part Number selector  -->
-      <section class="part-number-selector">
-          <div class="container">
-              <h2>Part Number Selector</h2>
-              <div class="row">
-                  <div class="col-6">
-                      <div class="animate-block">
-                        <img src="img/blades-img3.png" alt="blades" class="blades">                          
-                      </div>
-                  </div>
-                  <div class="col-6">
-                        <p>Dicemaster and Blademaster high-quality diamond blades are avalible in a complete range of 
-                        diameters from 2&#8243; to 5&#8243; to fit all dicing saws and conventional grinders. 
-                        Thicknesses are avalible from .0015&#8243; through .500&#8243; with various tolerance levels starting.</p>
-                        <img src="img/img3.png" alt="img" class="blades-img">
-                        <p>Select the part number for dicing blades based on the main criteria</p>
-                        <a href="" class="btn primary-btn">Go to selector <img src="img/arrow.svg" alt=""></a>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- Feedback -->
-      <section class="feedback">
-          <div class="container">
-                <h2>Feedback</h2>
-                <div class="swiper feedbackSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="comment">
-                                <p>I commend your company for hiring such expert people to service your products and customers.
-                                All my dicing needs will be obtained through Thermocarbon from now on</p>
-                                <div class="user">
-                                    <div class="icon">
-                                        <img src="img/user1.jpg" alt="user">
-                                    </div>
-                                    <div>
-                                        <span>Alex Franchesko</span>
-                                        <p>M. Ascerno-Sr Lab Technician of MMC</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="comment">
-                                <p>So often of business I seem to make a call and end up talking to a machine or someone who knows 
-                                (or cares) virtually nothing about the concerns.</p>
-                                <div class="user">
-                                    <div class="icon">
-                                        <img src="img/user1.jpg" alt="user">
-                                    </div>
-                                    <div>
-                                        <span>Henry Frau</span>
-                                        <p>D. Schroeder-Niagara College of Applied Arts and Technologies</p>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="comment">
-                                <p>I commend your company for hiring such expert people to service your products and customers.
-                                All my dicing needs will be obtained through Thermocarbon from now on</p>
-                                <div class="user">
-                                    <div class="icon">
-                                        <img src="img/user1.jpg" alt="user">
-                                    </div>
-                                    <div>
-                                        <span>Alex Franchesko</span>
-                                        <p>M. Ascerno-Sr Lab Technician of MMC</p>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="comment">
-                                <p>I commend your company for hiring such expert people to service your products and customers.
-                                All my dicing needs will be obtained through Thermocarbon from now on</p>
-                                <div class="user">
-                                    <div class="icon">
-                                        <img src="img/user1.jpg" alt="user">
-                                    </div>
-                                    <div>
-                                        <span>Alex Franchesko</span>
-                                        <p>M. Ascerno-Sr Lab Technician of MMC</p>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                    <div class="button-next">
-                        <svg width="62" height="21" fill="none">
-                            <use xlink:href="./img/icons.svg#arrow-next"></use>
-                        </svg>
-                    </div>
-                    <div class="button-prev">
-                        <svg width="62" height="21" fill="none">
-                            <use xlink:href="./img/icons.svg#arrow-prev"></use>
-                        </svg>                        
-                    </div>
-                </div>
-          </div>
-      </section>
-      <!-- Contact area  -->
-      <section class="contact">
-          <div class="container">
-              <div class="row">
-                  <div class="col-6"></div>
-                  <div class="col-6">
-                      <h2>Contact area</h2>
-                      <form action="">
-                         <div class="row">
-                             <div class="col-6">
-                                <div class="form-field">
-                                    <input type="text" placeholder="Name*">
-                                </div>                                 
-                             </div>
-                             <div class="col-6">
-                                <div class="form-field">
-                                    <input type="text" placeholder="Phone number ">
-                                </div>                                 
-                             </div>
-                             <div class="col-6">
-                                <div class="form-field">
-                                    <input type="text" placeholder="Email*">
-                                </div>                                 
-                             </div>
-                             <div class="col-6">
-                                <div class="form-field">
-                                    <input type="text" placeholder="Email comfirm*">
-                                </div>                                 
-                             </div>
-                             <div class="col-12">
-                                <div class="form-field">
-                                    <textarea name="" placeholder="Message (Max 500 characters)"></textarea>
-                                </div>                                  
-                             </div>
-                              <div class="col-12">
-                                  <button class="btn primary-btn">Send message <img src="img/arrow.svg" alt=""></button>
-                              </div>                            
-                         </div> 
-                      </form>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- Footer  -->
-      <footer>
-          <div class="footer-top">
+      <!-- 
+      ============================
+      Slider #1 Section
+      ============================
+      -->
+      <section class="slider slider-1" id="slider-1">
+        <div class="container-fluid pe-0 ps-0">
+          <div class="slider-carousel owl-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1" data-autoplay="true" data-nav="true" data-dots="true" data-space="0" data-loop="true" data-speed="800">
+            <!--  Start .slide-->
+            <div class="slide bg-overlay bg-overlay-dark-slider">
+              <div class="bg-section"><img src="assets/images/custom/slide-img3.jpeg" alt="Background"/></div>
               <div class="container">
-                  <div class="row">
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-8">
-                                <div class="content-block content-assistance">
-                                    <h5>Immediate Assistance</h5>
-                                    <div>
-                                        <img src="img/phone.svg" alt="">
-                                        <a href="tel:1-800-523-1946">1-800-523-1946</a>
-                                    </div>
-                                    <div>
-                                        <img src="img/clock.svg" alt="">
-                                        <span>8:30-5pm eastern</span>
-                                    </div> 
-                                </div>
-                                <div class="content-block content-headquarters">
-                                    <h5>International Headquarters</h5>
-                                    <div>
-                                        <img src="img/pointer.svg" alt="">
-                                        <p>Thermocarbon Inc. 391<br> Melody Lane Casselberry,<br> FL 32707 directions</p>
-                                    </div>                                    
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <h5>Site Map</h5>
-                                <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Products</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contacts</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <img src="img/map.png" alt="map" class="map-img">
-                    </div>                      
-                  </div>
-              </div>
-          </div>
-          <div class="footer-middle">
-            <div class="container">
                 <div class="row">
-                    <div class="col-4">
-                        <h5>Diamond Wafering Blades</h5>
-                        <p>The leader in dicing and precision diamond grinding technology. With over 40-year experience of Thermocarbon inc in semiconductor </p>
+                  <div class="col-12 col-lg-7">
+                    <div class="slide-content">
+                      <h1 class="slide-headline">The leader in dicing and precision diamond grinding technology</h1>
+                      <p class="slide-desc">We provide next-generation blades and flanges for semiconductor dicing</p>
+                      <div class="slide-action">
+                        <div class="slide-list"> 
+                          <div class="icon"><img src="assets/images/custom/icon_1.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_2.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_3.svg" alt=""></div>
+                        </div><a class="btn btn--primary" href="page-services.html"> <span>read more</span><i class="energia-arrow-right"></i></a>
+                      </div>
                     </div>
-                    <div class="col-4">
-                        <h5>Resin-bond blades</h5>
-                        <p>The leader in dicing and precision diamond grinding technology. With over 40-year experience of Thermocarbon inc in semiconductor </p>
+                    <!-- End .slide-content -->
+                  </div>
+                  <div class="col-12 col-lg-5 d-flex align-items-center"> 
+                    <div class="slide-img">
+                      <img src="assets/images/custom/blade_630.png" alt="Background"/>
                     </div>
-                    <div class="col-4">
-                        <h5>Why Tcar Dicing Flanges?</h5>
-                        <p>The leader in dicing and precision diamond grinding technology. With over 40-year experience of Thermocarbon inc in semiconductor</p>
-                    </div>
+                  </div>
                 </div>
+                <!--  End .row-->
+              </div>
+              <!-- End .container-->
+            </div>
+            <!-- End .slide-->
+            <!--  Start .slide-->
+            <div class="slide bg-overlay bg-overlay-dark-slider">
+              <div class="bg-section"><img src="assets/images/custom/slide-img1.jpeg" alt="Background"/></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-7">
+                    <div class="slide-content">
+                      <h1 class="slide-headline">Dicemaster semiconductor dicing blades and flanges</h1>
+                      <p class="slide-desc">Thermocarbon is a global leader in dicing and diamond grinding industry</p>
+                      <div class="slide-action">
+                        <div class="slide-list"> 
+                          <div class="icon"><img src="assets/images/custom/icon_1.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_2.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_3.svg" alt=""></div>
+                        </div><a class="btn btn--primary" href="page-services.html"> <span>read more</span><i class="energia-arrow-right"></i></a>
+                      </div>
+                    </div>
+                    <!-- End .slide-content -->
+                  </div>
+                  <div class="col-12 col-lg-5 d-flex align-items-center"> 
+                    <div class="slide-img">
+                      <img src="assets/images/custom/blade_630.png" alt="Background"/>
+                    </div>
+                  </div>
+                </div>
+                <!--  End .row-->
+              </div>
+              <!-- End .container-->
+            </div>
+            <!-- End .slide-->   
+            <!--  Start .slide-->
+            <div class="slide bg-overlay bg-overlay-dark-slider">
+              <div class="bg-section"><img src="assets/images/custom/slide-img2.jpeg" alt="Background"/></div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-lg-7">
+                    <div class="slide-content">
+                      <h1 class="slide-headline">The leading manufacturer of dicing blades and flanges</h1>
+                      <p class="slide-desc">For over 40 years, Thermocarbon provides next-gen products for wafer dicing</p>
+                      <div class="slide-action">
+                        <div class="slide-list"> 
+                          <div class="icon"><img src="assets/images/custom/icon_1.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_2.svg" alt=""></div>
+                          <div class="icon"><img src="assets/images/custom/icon_3.svg" alt=""></div>
+                        </div><a class="btn btn--primary" href="page-services.html"> <span>read more</span><i class="energia-arrow-right"></i></a>
+                      </div>
+                    </div>
+                    <!-- End .slide-content -->
+                  </div>
+                  <div class="col-12 col-lg-5 d-flex align-items-center"> 
+                    <div class="slide-img">
+                      <img src="assets/images/custom/blade_630.png" alt="Background"/>
+                    </div>
+                  </div>
+                </div>
+                <!--  End .row-->
+              </div>
+              <!-- End .container-->
+            </div>
+            <!-- End .slide-->                       
+          </div>
+          <!-- End .slider-carousel-->
+        </div>
+        <!--  End .container-fluid-->
+      </section>
+      <!--
+      ============================
+      About #1 Section
+      ============================
+      -->
+      <section class="about about-1" id="about-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-5">
+              <div class="about-img">
+                <div class="about-img-holder bg-overlay">
+                  <div class="bg-section">
+                    <img src="assets/images/custom/blades-img1.png" alt="about Image"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7">
+              <div class="heading heading-1">
+                <p class="heading-subtitle heading-subtitle-bg">DICEMASTER®</p>
+                <h2 class="heading-title">Dicing blades /<br>
+                  Diamond wheels</h2>
+              </div>
+              <div class="about-block"> 
+                <div class="row">
+                  <!-- <div class="col-12 col-lg-7">
+                    <div class="block-left"> 
+                      <p class="paragraph">We drive the transition to more sustainable, reliable & affordable energy systems. With our innovative technologies, we energize society, that’s our aim!</p>
+                      <p>The increase in extreme weather events and rising sea levels are unmistakable signs of climate change. Roughly 850 million people still live without access to electricity, which is the foundation of sustainable development.</p><a class="btn btn--secondary" href="page-about.html">read more <i class="energia-arrow-right"></i></a>
+                    </div>
+                  </div> -->
+                  <div class="col-12 mb-5">
+                    <div class="block-right">
+                      <div class="prief-set"> 
+                        <ul class="list-unstyled advantages-list"> 
+                          <li>Cut with closer tolerances than any other blade on the market!</li>
+                          <li>Cost-effective alternative for metal blade applications</li>
+                          <li>Consistent Reliability</li>
+                          <li>Self-Sharpening</li>
+                          <li>Run Cooler and Last Longer</li>
+                          <li>Chip less</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="heading heading-1">
+                <p class="heading-subtitle heading-subtitle-bg">TCAR® FLANGES</p>
+                <h2 class="heading-title">Next Generation</h2>
+              </div>
+              <div class="about-block"> 
+                <div class="row">
+                  <div class="col-12">
+                    <div class="block-right">
+                      <div class="prief-set"> 
+                        <ul class="list-unstyled advantages-list"> 
+                          <li>Completly custom non-stock flanges.</li>
+                          <li>Titanium, stainless steel, hard anodize aluminum with assorted colors.</li>
+                          <li>Allow custom O.D. Exposure.</li>
+                          <li>Uncomparible parralelism.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+            </div>
+            <!-- End .col-lg-6-->
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      Features #1 Section
+      ============================
+      -->
+      <section class="features features-1 bg-overlay bg-overlay-theme2" id="features-1">
+        <div class="bg-section"> <img src="assets/images/background/2.jpg" alt="Background"/></div>
+        <div class="container">
+          <div class="heading heading-2 heading-light heading-light2">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <h2 class="heading-title">Our Services</h2>
+              </div>
+              <div class="col-12 col-lg-6 offset-lg-1">
+                <p class="heading-desc">We continously develop new blades in order to help our customers, reducing costs and improving quality, free of charge</p>
+                <div class="actions-holder">
+                  <a class="btn btn--primary btn--inversed" href="page-contact.html">
+                    Read more <i class="energia-arrow-right"></i></a>
+                    </div>
+              </div>
+            </div>
+            <!-- End .row-->
+          </div>
+          <!-- End .heading-->
+          <div class="carousel owl-carousel carousel-dots" data-slide="3" data-slide-rs="2" data-autoplay="false" data-nav="false" data-dots="true" data-space="25" data-loop="true" data-speed="800">
+            <div>
+              <div class="feature-panel-holder" data-hover="">
+                <div class="feature-panel">
+                  <div class="feature-icon">
+                    <img src="assets/images/custom/icon_1_green.svg" alt="">
+                  </div>
+                  <div class="feature-content">
+                    <h4>R&D services</h4>
+                  </div><a href="page-about.html"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                </div>
+                <!-- End .feature-panel-->
+              </div>
+            </div>
+            <div>
+              <div class="feature-panel-holder" data-hover="">
+                <div class="feature-panel">
+                  <div class="feature-icon">
+                    <img src="assets/images/custom/icon_2_green.svg" alt="">
+                  </div>
+                  <div class="feature-content">
+                    <h4>Free loaner flanges</h4>
+                  </div><a href="page-about.html"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                </div>
+                <!-- End .feature-panel-->
+              </div>
+            </div>
+            <div>
+              <div class="feature-panel-holder" data-hover="">
+                <div class="feature-panel">
+                  <div class="feature-icon">
+                    <img src="assets/images/custom/icon_3_green.svg" alt="">
+                  </div>
+                  <div class="feature-content">
+                    <h4>Blade samples</h4>
+                  </div><a href="page-about.html"><i class="energia-arrow-right"></i> <span>explore more</span> </a>
+                </div>
+                <!-- End .feature-panel-->
+              </div>
             </div>
           </div>
-          <div class="footer-bottom">
-              <div class="container">
-                  <div class="row">
-                    <div class="col-12">
-                        <a href="">
-                            <img src="img/logo.svg" alt="logo">
-                        </a>
-                        <p>2021 Thermocarbon. All Rights Reserved.</p>
+          <!-- End .carousel-->
+          <div class="row"> 
+            <div class="col-12 col-lg-4">
+              <div class="more-features"> 
+                <p>If you have any questions or need help, feel free to contact with our team, or you can call us any time<br> <a href="tel: 1-800-523-1946">1-800-523-1946</a></p><a class="btn btn--bordered btn--white" href="page-about.html">
+                   free estimate<i class="energia-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <!--
+              ============================
+              Video #1 Section
+              ============================
+              -->
+              <div class="video video-1 bg-overlay bg-overlay-video" id="video-1">
+                <div class="bg-section">
+                  <img src="assets/images/custom/img.jpg" alt="background"/>
+                </div>
+                <a class="popup-video btn-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4"> <i class="fas fa-play"></i><span>watch our video!</span></a>
+                <!-- End .popup-video-->
+              </div>
+            </div>
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      services #1 Section
+      ============================
+      -->
+      <section class="services services-1 bg-grey" id="services-1">
+        <div class="container">
+          <div class="heading heading-3 text-center">
+            <div class="row">
+              <div class="col-12 col-lg-6 offset-lg-3">
+                <h2 class="heading-title">Customer Service</h2>
+              </div>
+              <!-- End .col-lg-6-->
+            </div>
+            <!-- End .row-->
+          </div>
+          <!-- End .heading-->
+          <div class="carousel owl-carousel carousel-dots dots-side" data-slide="3" data-slide-rs="1" data-autoplay="true" data-nav="false" data-dots="true" data-space="30" data-loop="true" data-speed="800">
+            <div>
+              <div class="service-panel">
+                <div class="service-icon">
+                  <img src="assets/images/custom/cs-icon1.svg" alt="">
+                </div>
+                <div class="service-content">
+                  <h4><a href="services-turbines.html">Local distributors</a></h4>
+                  <p>We have excellent local distributors in all continents willing to step in and help</p>
+                  <a class="btn btn--secondary" href="services-turbines.html">read more <i class="energia-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- End .service-panel-->
+            </div>
+            <div>
+              <div class="service-panel">
+                <div class="service-icon">
+                  <img src="assets/images/custom/cs-icon2.svg" alt="">
+                </div>
+                <div class="service-content">
+                  <h4><a href="services-turbines.html">Сustomer attitude</a></h4>
+                  <p>We treat our customers equally, no matter how big or small</p>
+                  <a class="btn btn--secondary" href="services-turbines.html">read more <i class="energia-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- End .service-panel-->
+            </div>
+            <div>
+              <div class="service-panel">
+                <div class="service-icon">
+                  <img src="assets/images/custom/cs-icon3.svg" alt="">
+                </div>
+                <div class="service-content">
+                  <h4><a href="services-turbines.html">Travel for our clients</a></h4>
+                  <p>We will travel all over the globe for our customers an no charge</p>
+                  <a class="btn btn--secondary" href="services-turbines.html">read more <i class="energia-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- End .service-panel-->
+            </div>
+            <div>
+              <div class="service-panel">
+                <div class="service-icon">
+                  <img src="assets/images/custom/cs-icon4.svg" alt="">
+                </div>
+                <div class="service-content">
+                  <h4><a href="services-turbines.html">Sales team</a></h4>
+                  <p>Our sales team in constantly training in all applications and processes to improve customers bottom line</p>
+                  <a class="btn btn--secondary" href="services-turbines.html">read more <i class="energia-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- End .service-panel-->
+            </div>
+            <div>
+              <div class="service-panel">
+                <div class="service-icon">
+                  <img src="assets/images/custom/cs-icon5.svg" alt="">
+                </div>
+                <div class="service-content">
+                  <h4><a href="services-turbines.html">Many languages</a></h4>
+                  <p>Our staff is fluent in Chinese, Japanese, Spanish, Italian, Russian, and English</p>
+                  <a class="btn btn--secondary" href="services-turbines.html">read more <i class="energia-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- End .service-panel-->
+            </div>            
+          </div>
+          <!-- End .carousel-->
+          <!-- End more-services-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      Counters #1 Section
+      ============================
+      -->
+      <section class="counters counters-1 bg-overlay bg-overlay-theme2" id="counters-1">
+        <div class="bg-section"> <img src="assets/images/background/2.jpg" alt="Background"/></div>
+        <div class="container">
+          <div class="heading heading-4 heading-light heading-light2">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <h2 class="heading-title">Part Number Selector</h2>
+                <img src="assets/images/custom/blades-img3.png" alt="" class="blades-img3">
+              </div>
+              <div class="col-12 col-lg-6 offset-lg-1">
+                <p class="heading-desc">Dicemaster and Blademaster high-quality diamond blades are avalible in a complete range of diameters 
+                  from 2″ to 5″ to fit all dicing saws and conventional grinders. Thicknesses are avalible from .0015″ through .500″ with various tolerance levels starting.</p>
+                  <p class="heading-desc">Select the part number for dicing blades based on the main criteria</p>
+                <div class="actions-holder">
+                  <a class="btn btn--primary btn--inversed" href="page-contact.html">
+                    Go to selector <i class="energia-arrow-right"></i></a></div>
+              </div>
+            </div>
+            <!-- End .row-->
+          </div>
+          <!-- End .heading-->
+
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      Testimonials #1 Section
+      ============================
+      -->
+      <section class="testimonial testimonial-1 bg-theme2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="carousel owl-carousel carousel-nav carousel-dots" data-slide="2" data-slide-rs="1" data-autoplay="true" data-nav="true" data-dots="true" data-space="40" data-loop="true" data-speed="800">
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-img"> <img src="assets/images/custom/user1.jpg" alt="Testimonial Author"/></div>
+                    <div class="testimonial-content">
+                      <p>I commend your company for hiring such expert people to service your products and customers.
+                        All my dicing needs will be obtained through Thermocarbon from now on</p>
+                      <div class="testimonial-meta"> 
+                        <h6>Alex Franchesko</h6>
+                        <p>M. Ascerno-Sr Lab Technician of MMC</p>
+                      </div>
                     </div>
                   </div>
+                </div>
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-img"> <img src="assets/images/custom/user1.jpg" alt="Testimonial Author"/></div>
+                    <div class="testimonial-content">
+                      <p>So often of business I seem to make a call and end up talking to a machine or someone who knows
+                        (or cares) virtually nothing about the concerns.</p>
+                      <div class="testimonial-meta"> 
+                        <h6>Henry Frau</h6>
+                        <p>D. Schroeder-Niagara College of Applied Arts and Technologies</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-img"> <img src="assets/images/custom/user1.jpg" alt="Testimonial Author"/></div>
+                    <div class="testimonial-content">
+                      <p>I commend your company for hiring such expert people to service your products and customers.
+                        All my dicing needs will be obtained through Thermocarbon from now on</p>
+                      <div class="testimonial-meta"> 
+                        <h6>Alex Franchesko</h6>
+                        <p>M. Ascerno-Sr Lab Technician of MMC</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-panel">
+                  <div class="testimonial-body">
+                    <div class="testimonial-img"> <img src="assets/images/custom/user1.jpg" alt="Testimonial Author"/></div>
+                    <div class="testimonial-content">
+                      <p>So often of business I seem to make a call and end up talking to a machine or someone who knows
+                        (or cares) virtually nothing about the concerns.</p>
+                      <div class="testimonial-meta"> 
+                        <h6>Henry Frau</h6>
+                        <p>D. Schroeder-Niagara College of Applied Arts and Technologies</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+<!--
+      ============================
+      Projects Grid #1 Section
+      ============================
+      -->
+      <section class="projects projects-grid" id="projects-grid-1">
+        <div class="container">
+          <div class="heading heading-8">
+            <div class="row"> 
+              <div class="col-12 col-lg-5">
+                <h2 class="heading-title">Video about products</h2>
+              </div>
+            </div>
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+        <div class="carousel owl-carousel carousel-dots carousel-navs" data-slide="4" data-slide-rs="1" data-center="data-center" data-autoplay="true" data-nav="true" data-dots="true" data-space="30" data-loop="true" data-speed="800">
+            <div>
+              <div class="project-panel" data-hover="">
+                <div class="project-panel-holder">
+                  <div class="project-img">
+                    <a class="link" href="projects-single.html"></a>
+                    <img src="assets/images/custom/video.png" alt="project image"/>
+                  </div>
+                  <!-- End .project-img-->
+                  <div class="project-content"> 
+                    <div class="project-title">
+                      <h4><a href="projects-single.html">Dicing blades for discrete wafer dicing</a></h4>
+                    </div>
+                    <div class="project-cat"><a href="">Simac Masic is distributor for the K&S brand dicing blades.</a></div>
+                  </div>
+                  <!-- End .project-content -->
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="project-panel" data-hover="">
+                <div class="project-panel-holder">
+                  <div class="project-img">
+                    <a class="link" href="projects-single.html"></a>
+                    <img src="assets/images/custom/video.png" alt="project image"/>
+                  </div>
+                  <!-- End .project-img-->
+                  <div class="project-content"> 
+                    <div class="project-title">
+                      <h4><a href="projects-single.html">Dicing blades for discrete wafer dicing</a></h4>
+                    </div>
+                    <div class="project-cat"><a href="">Simac Masic is distributor for the K&S brand dicing blades.</a></div>
+                  </div>
+                  <!-- End .project-content -->
+                </div>
+              </div>
+            </div>            
+            <div>
+              <div class="project-panel" data-hover="">
+                <div class="project-panel-holder">
+                  <div class="project-img">
+                    <a class="link" href="projects-single.html"></a>
+                    <img src="assets/images/custom/video.png" alt="project image"/>
+                  </div>
+                  <!-- End .project-img-->
+                  <div class="project-content"> 
+                    <div class="project-title">
+                      <h4><a href="projects-single.html">Dicing blades for discrete wafer dicing</a></h4>
+                    </div>
+                    <div class="project-cat"><a href="">Simac Masic is distributor for the K&S brand dicing blades.</a></div>
+                  </div>
+                  <!-- End .project-content -->
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="project-panel" data-hover="">
+                <div class="project-panel-holder">
+                  <div class="project-img">
+                    <a class="link" href="projects-single.html"></a>
+                    <img src="assets/images/custom/video.png" alt="project image"/>
+                  </div>
+                  <!-- End .project-img-->
+                  <div class="project-content"> 
+                    <div class="project-title">
+                      <h4><a href="projects-single.html">Dicing blades for discrete wafer dicing</a></h4>
+                    </div>
+                    <div class="project-cat"><a href="">Simac Masic is distributor for the K&S brand dicing blades.</a></div>
+                  </div>
+                  <!-- End .project-content -->
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="project-panel" data-hover="">
+                <div class="project-panel-holder">
+                  <div class="project-img">
+                    <a class="link" href="projects-single.html"></a>
+                    <img src="assets/images/custom/video.png" alt="project image"/>
+                  </div>
+                  <!-- End .project-img-->
+                  <div class="project-content"> 
+                    <div class="project-title">
+                      <h4><a href="projects-single.html">Dicing blades for discrete wafer dicing</a></h4>
+                    </div>
+                    <div class="project-cat"><a href="">Simac Masic is distributor for the K&S brand dicing blades.</a></div>
+                  </div>
+                  <!-- End .project-content -->
+                </div>
+              </div>
+            </div>                        
+        </div>
+        <!-- End .carousel-->
+        <div class="container"> 
+          <div class="row"> 
+            <div class="col-12"> 
+              <div class="projects-load-more"> <a class="btn btn--secondary" href="projects-grid.html">explore all projects <i class="energia-arrow-right"></i></a></div>
+            </div>
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+
+      <!--
+      ============================
+      Contact #1 Section
+      ============================
+      -->
+      <section class="contact contact-1 bg-overlay bg-overlay-theme" id="contact-1">
+        <div class="bg-section"><img src="assets/images/background/3.jpg" alt="background"/></div>
+        <div class="container">
+          <div class="contact-panel contact-panel-3">
+            <div class="heading heading-light heading-6">
+              <h2 class="heading-title">Contact area</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum nulla laudantium alias asperiores in reiciendis, mollitia impedit necessitatibus numquam pariatur porro iusto neque velit error eum, cumque deserunt aperiam nesciunt officia non voluptates esse nisi! Atque vero minus asperiores nostrum inventore corporis ducimus omnis consectetur explicabo id eveniet, odio veritatis, debitis ratione repudiandae nisi cumque quidem ad? Officia eos asperiores iure eum minima earum est aliquid quas facilis temporibus sed consectetur eius esse fuga ut pariatur neque inventore, incidunt nihil perspiciatis recusandae! Magni natus nobis distinctio debitis. Culpa delectus inventore nemo consequatur neque saepe quasi fuga aut odio ea!</p>
+              <!-- <div>
+                <img src="assets/images/custom/contacts-img.jpeg" alt="">
+              </div> -->
+            </div>
+            <div class="contact-card">
+              <div class="contact-body">
+                <form class="contactForm" method="post" action="assets/php/contact.php">
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <input class="form-control" type="text" id="contact-usage" name="contact-usage" placeholder="Name*" required=""/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <input class="form-control" type="text" id="contact-usage" name="contact-usage" placeholder="Phone number" required=""/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <input class="form-control" type="text" id="contact-usage" name="contact-usage" placeholder="Email*" required=""/>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <input class="form-control" type="text" id="contact-usage" name="contact-usage" placeholder="Email confirm*" required=""/>
+                    </div>
+                    <div class="col-12">
+                      <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Message (Max 500 characters)"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn--secondary w-100">Send message  <i class="energia-arrow-right"></i></button>
+                    </div>
+                    <div class="col-12">
+                      <div class="contact-result"></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <!-- End .contact-body -->
+            </div>
+          </div>
+          <!-- End .contact-panel-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      Blog #1 Section
+      ============================
+      -->
+      <section class="blog blog-1 blog-grid" id="blog-1">
+        <div class="container">
+          <div class="row"> 
+            <div class="col-12 col-lg-6 offset-lg-3">
+              <div class="heading heading-7 text-center">
+                <h2 class="heading-title">Knowledge Center</h2>
+                <p>With over 40-year experience of Thermocarbon inc in semiconductor dicing, we share recommendations to enhance your dicing operations to the maximum efficiency.</p>
+              </div>
+            </div>
+          </div>
+          <!-- End .row-->
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="blog-entry" data-hover="">
+                <div class="entry-content">
+                  <div class="entry-meta">
+                    <div class="entry-date"><span class="day">20 December</span><span class="year">2021</span></div>
+                    <!-- End .entry-date		-->
+                    <div class="entry-author"> 
+                      <p>mike dolley</p>
+                    </div>
+                  </div>
+                  <div class="entry-title">
+                    <h4><a href="blog-single.html">Flange care: How to prevent flange damages</a></h4>
+                  </div>
+                  <div class="entry-img-wrap"> 
+                    <div class="entry-img"><a href="blog-single.html"><img src="assets/images//custom/img2.jpg" alt="Filing Solar Power Permits in 2020? Consider Following Important Factors"/></a></div>
+                    <div class="entry-category"><a href="blog-grid.html">flange</a><a href="blog-grid.html">care</a>
+                    </div>
+                  </div>
+                  <!-- End .entry-img-->
+                  <div class="entry-bio">
+                    <p>We treat our customers equally, no matter how big or small.</p>
+                  </div>
+                  <div class="entry-more"> <a class="btn btn--white btn-bordered" href="blog-single.html">read more <i class="energia-arrow-right"></i></a></div>
+                </div>
+              </div>
+              <!-- End .entry-content-->
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="blog-entry" data-hover="">
+                <div class="entry-content">
+                  <div class="entry-meta">
+                    <div class="entry-date"><span class="day">20 December</span><span class="year">2021</span></div>
+                    <!-- End .entry-date		-->
+                    <div class="entry-author"> 
+                      <p>mike dolley</p>
+                    </div>
+                  </div>
+                  <div class="entry-title">
+                    <h4><a href="blog-single.html">Flange care: How to prevent flange damages</a></h4>
+                  </div>
+                  <div class="entry-img-wrap"> 
+                    <div class="entry-img"><a href="blog-single.html"><img src="assets/images//custom/img2.jpg" alt="Filing Solar Power Permits in 2020? Consider Following Important Factors"/></a></div>
+                    <div class="entry-category"><a href="blog-grid.html">flange</a><a href="blog-grid.html">care</a>
+                    </div>
+                  </div>
+                  <!-- End .entry-img-->
+                  <div class="entry-bio">
+                    <p>We treat our customers equally, no matter how big or small.</p>
+                  </div>
+                  <div class="entry-more"> <a class="btn btn--white btn-bordered" href="blog-single.html">read more <i class="energia-arrow-right"></i></a></div>
+                </div>
+              </div>
+              <!-- End .entry-content-->
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="blog-entry" data-hover="">
+                <div class="entry-content">
+                  <div class="entry-meta">
+                    <div class="entry-date"><span class="day">20 December</span><span class="year">2021</span></div>
+                    <!-- End .entry-date		-->
+                    <div class="entry-author"> 
+                      <p>mike dolley</p>
+                    </div>
+                  </div>
+                  <div class="entry-title">
+                    <h4><a href="blog-single.html">Flange care: How to prevent flange damages</a></h4>
+                  </div>
+                  <div class="entry-img-wrap"> 
+                    <div class="entry-img"><a href="blog-single.html"><img src="assets/images//custom/img2.jpg" alt="Filing Solar Power Permits in 2020? Consider Following Important Factors"/></a></div>
+                    <div class="entry-category"><a href="blog-grid.html">flange</a><a href="blog-grid.html">care</a>
+                    </div>
+                  </div>
+                  <!-- End .entry-img-->
+                  <div class="entry-bio">
+                    <p>We treat our customers equally, no matter how big or small.</p>
+                  </div>
+                  <div class="entry-more"> <a class="btn btn--white btn-bordered" href="blog-single.html">read more <i class="energia-arrow-right"></i></a></div>
+                </div>
+              </div>
+              <!-- End .entry-content-->
+            </div>            
+          </div>
+          <div class="row"> 
+            <div class="col-12"> 
+              <div class="more-blog"><a href="blog-grid.html">find out more about our news!</a></div>
+            </div>
+          </div>
+          <!-- End .row-->
+        </div>
+        <!-- End .container-->
+      </section>
+      <!--
+      ============================
+      Footer #1
+      ============================
+      -->
+      <footer class="footer footer-1">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-2">
+                <div class="footer-widget  widget-links">
+                  <div class="footer-site-map">
+                    <div class="footer-widget-title">
+                      <h5>Site Map</h5>
+                    </div>
+                    <div class="widget-content">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Products</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contacts</a></li>
+                      </ul>                    
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <!--  End .col-lg-2-->
+              <div class="col-12 col-sm-6 col-md-6 col-lg-7">
+                <div class="footer-map">
+                  <img src="assets/images/custom/map.png" alt="">
+                </div>
+              </div>
+              <!--  End .col-lg-5-->
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="footer-widget widget-links">
+                  <div class="widget-content">
+                    <div class="content-block content-assistance">
+                      <div class="footer-widget-title">
+                        <h5>Immediate Assistance</h5>
+                      </div>
+                      <div class="footer-widget-content">
+                          <img src="assets/images/custom/phone.svg" alt="">
+                          <a href="tel:1-800-523-1946">1-800-523-1946</a>
+                      </div>
+                      <div class="footer-widget-content">
+                          <img src="assets/images/custom/clock.svg" alt="">
+                          <span>8:30-5pm eastern</span>
+                      </div> 
+                    </div>
+                    <div class="content-block content-headquarters">
+                      <div class="footer-widget-title">
+                        <h5>International Headquarters</h5>
+                      </div>
+                      <div class="footer-widget-content">
+                          <img src="assets/images/custom/pointer.svg" alt="">
+                          <p>Thermocarbon Inc. 391<br> Melody Lane Casselberry,<br> FL 32707 directions</p>
+                      </div>                                    
+                    </div>                
+                  </div>
+                </div>
+              </div>
+              <!--  End .col-lg-3-->
+            </div>
+            <!-- End .row-->
+          </div>
+          <!--  End .container-->
+        </div>
+        <!--  End .footer-top-->
+        <div class="footer-bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer-copyright">
+                  <div class="copyright">
+                    <a class="navbar-brand" href="index.html"><img class="logo logo-dark" src="assets/images/logo/logo-white.svg" alt="Logo"/></a>                    
+                    <span>&copy; 2021 Thermocarbon. All Rights Reserved.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  End .row-->
+        </div>
+        <!--  End .footer-bottom-->
       </footer>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-     <script src="js/libs.min.js"></script> 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+      <!--
+      ============================
+      BackToTop #1
+      ============================
+      -->
+      <div class="back-top" id="back-to-top" data-hover=""><i class="energia-arrow-up"></i></div>
+    </div>
+    <!--  Footer Scripts==
     -->
-    <script>
-      var swiper = new Swiper(".feedbackSwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
-          nextEl: ".button-next",
-          prevEl: ".button-prev",
-        },
-      });
-      var swiper = new Swiper(".videoSwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
-          nextEl: ".button-next",
-          prevEl: ".button-prev",
-        },
-      });      
-      var swiper = new Swiper(".mainSwiper", {
-          direction: "vertical",
-          mousewheel: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-          renderBullet: function (index, className) {
-            // return '<span class="' + className + '">' + '0'+ (index + 1) + "</span>";
-            let currentIndex = index + 1 > 9 ? `${index + 1}` : `0${index+1}`;
-            return `<div class="${className}">${currentIndex}<div class="title">BLADE &nbsp; ${index+1}</div></div>`;
-          },
-        },
-      });    
-    </script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/functions.js"></script>
   </body>
 </html>
