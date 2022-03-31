@@ -149,11 +149,13 @@
 					}
 
 					&:hover {
-						i {
+						img {
 							transform: translateY(-10px);
 						}
 					}
-
+					img{
+						transition     : 0.3s ease-in-out;						
+					}
 					i {
 						display        : flex;
 						justify-content: center;
