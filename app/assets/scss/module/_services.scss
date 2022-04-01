@@ -87,7 +87,11 @@
             z-index        : 2;
             transform-style: preserve-3d;
             perspective    : 1300px;
-
+            svg{
+                use{
+                    fill:var(--global--color-primary)
+                }
+            }
             @media #{$noteBook} {
                 left: 25px;
             }

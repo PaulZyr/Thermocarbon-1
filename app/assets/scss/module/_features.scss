@@ -70,7 +70,11 @@
 
 			.feature-icon {
 				margin-bottom: 17px;
-
+				svg{
+					use{
+						fill: var(--global--color-primary);
+					}
+				}
 				i {
 					&::before {
 						color      : var(--global--color-primary);

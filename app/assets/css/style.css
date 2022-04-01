@@ -1628,7 +1628,6 @@ ul.list-icons {
         margin-right: 20px; } }
     .header .navbar-brand .logo {
       max-width: 100%;
-      width: 160px;
       height: 60px; }
       @media screen and (max-width: 991.98px) {
         .header .navbar-brand .logo {
@@ -6890,6 +6889,8 @@ ul.dropdown-menu > li.has-dropdown > a:before {
           margin: 0 auto 30px; } }
       .features .feature-panel-holder .feature-panel .feature-icon {
         margin-bottom: 17px; }
+        .features .feature-panel-holder .feature-panel .feature-icon svg use {
+          fill: var(--global--color-primary); }
         .features .feature-panel-holder .feature-panel .feature-icon i::before {
           color: var(--global--color-primary);
           margin-left: 0;
@@ -8465,6 +8466,8 @@ ul.dropdown-menu > li.has-dropdown > a:before {
       z-index: 2;
       transform-style: preserve-3d;
       perspective: 1300px; }
+      .services .service-panel .service-icon svg use {
+        fill: var(--global--color-primary); }
       @media (min-width: 992px) and (max-width: 1200px) {
         .services .service-panel .service-icon {
           left: 25px; } }
@@ -11045,9 +11048,6 @@ ul.dropdown-menu > li.has-dropdown > a:before {
             color: var(--global--color-white);
             transition: 0.3s ease-in-out; }
 
-.header .navbar-brand .logo {
-  width: 320px; }
-
 .module-contact {
   margin-left: 0; }
 
@@ -11109,13 +11109,6 @@ footer .content-block.content-headquarters .footer-widget-content {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; }
-
-.projects.projects-grid .carousel .owl-nav {
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
 
 .projects.projects-grid .carousel .owl-nav .owl-next, .projects.projects-grid .carousel .owl-nav .owl-prev {
   position: relative; }
