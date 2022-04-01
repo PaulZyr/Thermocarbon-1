@@ -1033,8 +1033,8 @@
     <script>
       let root = document.documentElement;
       let color = document.querySelector('.color-piker');
-      document.querySelector('#color').addEventListener('change',function(){
-        root.style.setProperty('--global--color-primary', this.value);
+      document.querySelector('#color').addEventListener('change',function(e){
+        root.style.setProperty('--global--color-primary', e.target.value);
       })
     </script>
   </body>

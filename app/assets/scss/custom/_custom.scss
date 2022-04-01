@@ -100,3 +100,19 @@ footer .content-block.content-headquarters .footer-widget-content {
         margin-right: 10px;
     }
 }
+
+.services{
+    .owl-carousel{
+      .owl-stage-outer{
+          .owl-stage{
+            display: flex;
+            .owl-item{
+                display: flex;
+                div{
+                    display: flex;
+                }
+            }               
+          }
+      }    
+    } 
+}

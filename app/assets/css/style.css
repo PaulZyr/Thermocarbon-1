@@ -11138,4 +11138,11 @@ footer .content-block.content-headquarters .footer-widget-content {
   .color-piker span {
     margin-right: 10px; }
 
+.services .owl-carousel .owl-stage-outer .owl-stage {
+  display: flex; }
+  .services .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+    display: flex; }
+    .services .owl-carousel .owl-stage-outer .owl-stage .owl-item div {
+      display: flex; }
+
 /*# sourceMappingURL=style.css.map */
